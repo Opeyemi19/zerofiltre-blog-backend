@@ -46,5 +46,7 @@ data:
   NOTCHPAY_PUBLIC_KEY: pk_test.key
 
   #Opentelemetry
+  OTEL_JAVAAGENT_LOGGING: simple
+  OTEL_SERVICE_NAME: zerofiltre-backend-opeyemi19
   OTEL_EXPORTER_OTLP_PROTOCOL: grpc
   OTEL_EXPORTER_OTLP_ENDPOINT: http://otelcol-opentelemetry-collector.zerofiltre-bootcamp.svc.cluster.local:4317
