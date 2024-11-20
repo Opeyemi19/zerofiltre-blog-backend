@@ -29,7 +29,7 @@ spec:
           ports:
             - containerPort: 6379
         - name: zerofiltretech-blog-api
-          image: opeyemi19/zerofiltre-blog-backend-opentelemetry:4_opentelemetry
+          image: opeyemi19/zerofiltre-blog-backend-opentelemetry:6_opentelemetry
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
